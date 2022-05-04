@@ -9,6 +9,8 @@ body {
   color: #666666;
   padding: 0;
 }
+
+
 .topspace {
   margin-top: 40px;
 }
@@ -19,6 +21,9 @@ body {
 
 
 **********************************************************************/
+.header{
+  
+}
 .navbar {
   border-width: 1px 0;
   -webkit-border-radius: 0;
@@ -977,6 +982,12 @@ footer.entry-meta .meta-in {
     transform: scale(.4)
   }
 }
+
+.expand{
+  animation: cursorAnim3 .5s forwards;
+  border: 1px solid red;
+
+}
 @keyframes cursorAnim3{
   0% {
     transform:scale(1);
@@ -988,11 +999,6 @@ footer.entry-meta .meta-in {
     transform: scale(1);
     opacity: 0;
   }
-}
-.expand{
-  animation: cursorAnim3 .5s forwards;
-  border: 1px solid red;
-
 }
 /*mutu*/
 .mutu {
